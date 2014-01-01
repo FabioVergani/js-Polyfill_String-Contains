@@ -1,4 +1,3 @@
-
 (function(Polyfill){
 
  Polyfill(String.prototype,'contains',function(s,i){return this.indexOf(s,i)>=0});
